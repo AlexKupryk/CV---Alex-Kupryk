@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Forms</h1>
+
+    <form>
+      <div>
+        <label for="text2">Text</label>
+        <input type="text2" id="text2" value="Text" />
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="text2" id="email" placeholder="Enter email" />
+      </div>
+
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" />
+      </div>
+
+      <div>
+        <label for="number">Number</label>
+        <input type="number" id="number" min="0" />
+      </div>
+
+      <div>
+        <label for="range">Range</label>
+        <input type="range" id="range" min="0" max="10" step="2" />
+      </div>
+
+      <div>
+        <label for="date">Date</label>
+        <input type="date" id="date" min="0" max="10" step="2" />
+      </div>
+
+      <div>
+        <label for="color">Color</label>
+        <input type="Color" id="Color" min="0" max="10" step="2" />
+      </div>
+
+      <div>
+        <label for="Message">Message</label>
+        <br />
+        <textarea id="Message" cols="25" rows="5"></textarea>
+
+        <div>
+          <label for="color">Gender</label>
+          <select id="sex">
+            <option value="male">Man</option>
+            <option value="female" selected>Woman</option>
+            <option value="other">other</option>
+          </select>
+        </div>
+      </div>
+
+      <div>
+        <label> Job Quantity</label>
+        <input type="radio" name="work" /> 1
+        <input type="radio" name="work" /> 2
+        <input type="radio" name="work" /> 5
+        <input type="radio" name="work" /> 10+
+      </div>
+
+      <div>
+        <label> Favourite Food</label>
+        <input type="checkbox" name="Food" /> Peach
+        <input type="checkbox" name="Food" /> Apple
+        <input type="checkbox" name="Food" /> Mased Potato
+        <input type="checkbox" name="Food" /> Long Dick
+      </div>
+      <br />
+      <!-- <input type="submit" value="Send form" /> -->
+
+      <button type="submit">Send form</button>
+    </form>
+  </body>
+</html>
